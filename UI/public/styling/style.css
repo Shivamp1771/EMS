@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.body-contents{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5bc0de;
+}
+table{
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th{
+    background-color: rgb(252, 252, 189);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+input[type=text],
+[type=date],
+[type=number],select,textarea{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+button{
+    width: 100%;
+    background-color: #5bc0de;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 15px;
+  }
